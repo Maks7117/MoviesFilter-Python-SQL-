@@ -128,7 +128,7 @@ if __name__ == '__main__':
     ratings = read_input_file(args.ratings_file)
     movies = normalize_movies(movies)
     ratings = normalize_rating(ratings)
-    ratings
+    ratings = average_rating_by_movie_id(ratings)
 
     if args.regexp is not None:
         movies = filter_movies_by_name(movies, args.regexp)

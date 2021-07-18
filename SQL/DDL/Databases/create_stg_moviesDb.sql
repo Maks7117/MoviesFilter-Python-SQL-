@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS stg_moviesdb;
+CREATE DATABASE stg_moviesdb;
