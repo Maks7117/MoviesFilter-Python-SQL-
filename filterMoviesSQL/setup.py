@@ -53,7 +53,7 @@ def read_input_file(file_name):
 
 def execute_query(query_path):
     connection = mysql.connector.connect(
-        user='user',
+        user='root',
         password='mysql',
         host='localhost'
     )
@@ -71,7 +71,7 @@ def execute_query(query_path):
 
 if __name__ == '__main__':
     connection = mysql.connector.connect(
-        user='user',
+        user='root',
         password='mysql',
         host='localhost'
     )

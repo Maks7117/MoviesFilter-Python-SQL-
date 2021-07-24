@@ -46,7 +46,7 @@ def user_request():
 if __name__ == '__main__':
     args = parse_args()
     connection = mysql.connector.connect(
-        user='user',
+        user='root',
         password='mysql',
         host='localhost')
 
